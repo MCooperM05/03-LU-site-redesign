@@ -89,6 +89,7 @@ h1, h2 {
   padding: 20px 20px;
   width: 280px;
   text-align: center;
+  transition: transform 0.3s ease;
 }
 .specials-list .special-offer .price-now {
   font-size: 24px;
