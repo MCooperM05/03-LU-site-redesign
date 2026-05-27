@@ -93,7 +93,7 @@ h1, h2 {
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease,
-    border 0.3s ease;
+    border 0.1s ease;
 }
 .specials-list .special-offer .price-now {
   font-size: 24px;
