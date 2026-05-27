@@ -4,6 +4,7 @@ body {
   text-align: center;
   background-color: #FFE5D9;
   font-family: "Nunito", sans-serif;
+  font-size: 20px;
 }
 html {
     scroll-behavior: smooth;
@@ -23,6 +24,8 @@ html {
 h1, h2 {
   font-family: "Margarine", sans-serif;
   color: #f57e90;
+  font-size: 40px;
+  margin-bottom: 0px;
 }
 /* Links & Accents */
 
@@ -32,19 +35,33 @@ h1, h2 {
 
 /* Main Content */
 .header-content {
-  margin: 5px 0;
+  padding: 20px 20px;
 }
+.header-content h1 {
+  margin-bottom: 0;
+}
+/* .header-content p {
+  font-style: italic;
+} */
 /* About Section */
 .about-us {
   background-color: #FFCAD4;
+  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 12px;
+  margin: 20px auto;
   text-align: center;
-  width: 100%;
   box-sizing: border-box;
+  padding: 8px 20px;
+  /* border: 6px solid rgba(131, 54, 71, 0.15); */
+}
+.about-us h2 {
+  margin: 10px 0;
+}
+.about-us p {
+  margin: 8px 0;
 }
 /* Specials Section */
 .specials {
@@ -66,6 +83,16 @@ h1, h2 {
   padding: 20px 20px;
   width: 280px;
   text-align: center;
+}
+.specials-list .special-offer .price-now {
+  font-size: 24px;
+}
+.specials-list .special-offer .price-was {
+  text-decoration: line-through;
+}
+.specials-list .special-offer:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
 }
 .specials-list .special-offer h3, p {
   margin: 5px 0;
