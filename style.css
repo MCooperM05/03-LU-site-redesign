@@ -107,7 +107,7 @@ body {
   font-style: italic;
 }
 
-h1 {
+h1, h2 {
   font-family: "Margarine", sans-serif;
 }
 /* Links & Accents */
