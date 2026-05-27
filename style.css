@@ -32,7 +32,13 @@ h1, h2 {
 /* Images */
 
 /* Hero Section */
-
+.hero-container {
+  max-width: 800px;
+}
+.hero-container img {
+  width: 180px;
+  margin-bottom: 20px;
+}
 /* Main Content */
 .header-content {
   padding: 20px 20px;
