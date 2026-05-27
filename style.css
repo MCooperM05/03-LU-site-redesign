@@ -1,8 +1,8 @@
 /* Base Styles */
 body {
-  color: #BB8588;
+  color: #9D8189;
   text-align: center;
-  background-color: #EFEBCE;
+  background-color: #FFE5D9;
   font-family: "Sarabun", sans-serif;
 }
 /* Typography */
@@ -109,7 +109,7 @@ body {
 
 h1, h2 {
   font-family: "Margarine", sans-serif;
-  color: #D8A48F;
+  color: #F4ACB7;
 }
 /* Links & Accents */
 
