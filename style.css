@@ -3,7 +3,7 @@ body {
   color: #833647;
   text-align: center;
   background-color: #FFE5D9;
-  font-family: "Sarabun", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 html {
     scroll-behavior: smooth;
@@ -14,102 +14,12 @@ html {
   font-weight: 400;
   font-style: normal;
 }
-.sarabun-thin {
-  font-family: "Sarabun", sans-serif;
-  font-weight: 100;
+.nunito-<uniquifier> {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
   font-style: normal;
-}
-
-.sarabun-extralight {
-  font-family: "Sarabun", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-}
-
-.sarabun-light {
-  font-family: "Sarabun", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.sarabun-regular {
-  font-family: "Sarabun", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.sarabun-medium {
-  font-family: "Sarabun", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.sarabun-semibold {
-  font-family: "Sarabun", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.sarabun-bold {
-  font-family: "Sarabun", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.sarabun-extrabold {
-  font-family: "Sarabun", sans-serif;
-  font-weight: 800;
-  font-style: normal;
-}
-
-.sarabun-thin-italic {
-  font-family: "Sarabun", sans-serif;
-  font-weight: 100;
-  font-style: italic;
-}
-
-.sarabun-extralight-italic {
-  font-family: "Sarabun", sans-serif;
-  font-weight: 200;
-  font-style: italic;
-}
-
-.sarabun-light-italic {
-  font-family: "Sarabun", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.sarabun-regular-italic {
-  font-family: "Sarabun", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.sarabun-medium-italic {
-  font-family: "Sarabun", sans-serif;
-  font-weight: 500;
-  font-style: italic;
-}
-
-.sarabun-semibold-italic {
-  font-family: "Sarabun", sans-serif;
-  font-weight: 600;
-  font-style: italic;
-}
-
-.sarabun-bold-italic {
-  font-family: "Sarabun", sans-serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.sarabun-extrabold-italic {
-  font-family: "Sarabun", sans-serif;
-  font-weight: 800;
-  font-style: italic; */
-/* } */
-
+}*/
 h1, h2 {
   font-family: "Margarine", sans-serif;
   color: #f57e90;
