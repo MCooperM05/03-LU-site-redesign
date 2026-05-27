@@ -106,6 +106,10 @@ body {
   font-weight: 800;
   font-style: italic;
 }
+
+h1 {
+  font-family: "Margarine", sans-serif;
+}
 /* Links & Accents */
 
 /* Images */
