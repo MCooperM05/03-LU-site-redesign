@@ -1,9 +1,12 @@
 /* Base Styles */
 body {
-  color: #9D8189;
+  color: #833647;
   text-align: center;
   background-color: #FFE5D9;
   font-family: "Sarabun", sans-serif;
+}
+html {
+    scroll-behavior: smooth;
 }
 /* Typography */
 /* .margarine-regular {
@@ -109,7 +112,7 @@ body {
 
 h1, h2 {
   font-family: "Margarine", sans-serif;
-  color: #F4ACB7;
+  color: #f57e90;
 }
 /* Links & Accents */
 
@@ -118,16 +121,43 @@ h1, h2 {
 /* Hero Section */
 
 /* Main Content */
-
+.header-content {
+  margin: 5px 0;
+  margin-top: 10px;
+}
 /* About Section */
-
+.about-us {
+  background-color: #FFCAD4;
+}
 /* Specials Section */
 .specials {
+  text-align: center;
+}
+.specials-list {
   display: flex;
   justify-content: center;
   gap: 20px;
   margin-top: 20px;
   flex-wrap: wrap;
+}
+.specials-list .special-offer {
+  background-color: #FFCAD4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px;
+  width: 280px;
+  text-align: center;
+}
+.specials-list .special-offer h3, p {
+  margin: 5px 0;
+  margin-top: 10px;
+}
+.specials-list .special-offer img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 /* Visit Us Section */
 
