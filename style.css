@@ -111,10 +111,16 @@ h1, h2 {
   object-fit: contain;
 }
 /* Visit Us Section */
-
 iframe {
-  width: 100%;
+  width: 50%;
   height: 350px;
+}
+.visit-us .contact-info .phone-block p a {
+  color: #833647;
+  text-decoration: none;
+}
+.visit-us .contact-info .phone-block p a:hover {
+  color: #da96a2;
 }
 
 /* Footer */
