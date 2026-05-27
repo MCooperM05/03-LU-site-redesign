@@ -92,7 +92,8 @@ h1, h2 {
   border: 6px solid black;
   transition:
     transform 0.3s ease,
-    box-shadow 0.3s ease;
+    box-shadow 0.3s ease,
+    border 0.3s ease;
 }
 .specials-list .special-offer .price-now {
   font-size: 24px;
@@ -103,6 +104,7 @@ h1, h2 {
 .specials-list .special-offer:hover {
   transform: translateY(-10px) scale(1.02);
   box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+  border: 0px solid black;
 }
 .specials-list .special-offer h3, p {
   margin: 5px 0;
