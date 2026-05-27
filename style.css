@@ -122,7 +122,13 @@ h1, h2 {
 /* About Section */
 
 /* Specials Section */
-
+.specials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
 /* Visit Us Section */
 
 iframe {
