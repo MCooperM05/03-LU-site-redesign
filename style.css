@@ -9,6 +9,7 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
 /* Typography */
 /* .margarine-regular {
   font-family: "Margarine", sans-serif;
@@ -42,7 +43,7 @@ h1, h2 {
   margin: 0 auto;
   text-align: center;
   box-sizing: border-box;
-  padding: 8px 20px;
+  border: 10px solid #FFCAD4;
 }
 #hero-container img {
   width: 100%;
@@ -135,6 +136,20 @@ iframe {
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;
+}
+.address-block,
+.phone-block {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.address-block address,
+.phone-block p {
+  margin: 0;
+}
+.visit-us .contact-info {
+  margin-left: 26%;
+  text-align: left;
 }
 .visit-us iframe:hover {
   transform: translateY(-10px) scale(1.02);
