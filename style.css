@@ -27,28 +27,36 @@ h1, h2 {
   font-size: 40px;
   margin-bottom: 0px;
 }
+
 /* Links & Accents */
 
 /* Images */
 
 /* Hero Section */
-.hero-container {
-  max-width: 800px;
+#hero-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 8px 20px;
 }
-.hero-container img {
-  width: 180px;
-  margin-bottom: 20px;
+#hero-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 /* Main Content */
 .header-content {
-  padding: 20px 20px;
+  padding: 0 0;
 }
 .header-content h1 {
   margin-bottom: 0;
 }
-/* .header-content p {
-  font-style: italic;
-} */
+
 /* About Section */
 .about-us {
   background-color: #FFCAD4;
@@ -69,6 +77,7 @@ h1, h2 {
 .about-us p {
   margin: 8px 0;
 }
+
 /* Specials Section */
 .specials {
   text-align: center;
@@ -112,6 +121,7 @@ h1, h2 {
   height: 100%;
   object-fit: contain;
 }
+
 /* Visit Us Section */
 iframe {
   margin-top: 20px;
@@ -140,5 +150,5 @@ iframe {
 
 /* Footer */
 footer {
-  margin-top: 32px;
+  margin-top: 16px;
 }
