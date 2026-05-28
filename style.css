@@ -5,9 +5,39 @@ body {
   background-color: #FFE5D9;
   font-family: "Nunito", sans-serif;
   font-size: 20px;
+  margin: 0;
+  padding: 0;
 }
 html {
     scroll-behavior: smooth;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #601022;
+    padding: 0 20px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.navbar a {
+    display: flex;
+    align-items: center;
+
+    padding: 15px 40px;
+
+    text-decoration: none;
+    color: #FFCAD4;
+}
+.navbar a:hover {
+    background-color: #2c070f;
 }
 
 /* Typography */
