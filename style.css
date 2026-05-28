@@ -59,6 +59,19 @@ h1, h2 {
 }
 
 /* About Section */
+.about-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.about-header h2 {
+  margin: 0;
+}
+.about-header .material-symbols-outlined {
+  font-size: 40px;
+  color: #f57e90;
+}
 .about-us {
   background-color: #FFCAD4;
   width: 90%;
