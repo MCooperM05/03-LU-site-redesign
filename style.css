@@ -263,9 +263,10 @@ footer {
   right: 20px;
   background-color: #601022;
   text-decoration: none;
-  padding: 16px 16px;
+  padding: 16px 20px;
   border-radius: 50%;
   font-weight: bold;
+  color:#da96a2;
   text-decoration: none;
   font-size: 16px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
