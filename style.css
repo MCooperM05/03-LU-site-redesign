@@ -103,8 +103,8 @@ h1, h2 {
   color: #f57e90;
 }
 .about-us {
-  background-color: #FFCAD4;
-  width: 90%;
+  /* background-color: #FFCAD4; */
+  width: 65%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -209,4 +209,32 @@ iframe {
 /* Footer */
 footer {
   margin-top: 16px;
+}
+
+/* Customer Testimonies */
+.testimonies {
+  text-align: center;
+}
+.testimony-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.testimony-list .testimony {
+  background-color: #FFCAD4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  width: 23%;
+  text-align: center;
+}
+.testimony-list .testimony h3 {
+  margin-bottom: 0;
+}
+.testimony-list .testimony p {
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
