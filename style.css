@@ -166,6 +166,50 @@ h1, h2 {
   object-fit: contain;
 }
 
+/* Specials Section */
+.seasonal {
+  text-align: center;
+}
+.seasonal-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.seasonal-list .seasonal-offer {
+  background-color: #FFCAD4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px;
+  width: 280px;
+  text-align: center;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+.seasonal-list .seasonal-offer .price-now {
+  font-size: 24px;
+}
+.seasonal-list .seasonal-offer .price-was {
+  text-decoration: line-through;
+}
+.seasonal-list .seasonal-offer:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+.seasonal-list .seasonal-offer h3, p {
+  margin: 5px 0;
+  margin-top: 10px;
+}
+.seasonal-list .seasonal-offer img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 /* Customer Testimonies */
 .testimonies {
   text-align: center;
